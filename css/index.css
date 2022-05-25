@@ -93,12 +93,23 @@ button {
 }
 
 .titulo{
-  margin-top: 100px;
-  background-color: black;
+    margin-top: 100px;
+    background-color: black;
+    width: 55%;
+    border-left: 3px solid white;
+    padding-top: 1px;
+    height: 59px;
+    border-bottom: 3px solid white;
+    margin-bottom: 11px;
 
 }
 .titulo h2{
-  color: blue;
+  color: #42e2b8;
+  font-size: 44px;
+  line-height: 50px;
+
+
+
 }
 
 footer{
@@ -106,4 +117,22 @@ footer{
 }
 .pie-msj{
   font-size: 10px;
+}
+
+input{
+  border-radius: 7px;
+  width: 583px;
+  height: 42px;
+  border: 1px solid grey;
+}
+
+form .formupie {
+  width: 576px;
+    text-align: left;
+}
+
+textarea{
+  width: 583px;
+    border-radius: 7px;
+    height: 212px;
 }
